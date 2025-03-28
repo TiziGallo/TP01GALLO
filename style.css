@@ -1,0 +1,81 @@
+/* Estilo global para todo el cuerpo de la página */  
+body {  
+    font-family: Arial, sans-serif; /* Fuente del texto */  
+    background-color: #f4f4f4; /* Color de fondo */  
+    color: #333; /* Color del texto */  
+    margin: 0; /* Eliminar márgenes */  
+    padding: 0; /* Eliminar padding */  
+    line-height: 1.6; /* Espaciado entre líneas */  
+}  
+
+/* Estilo para los encabezados */  
+h1 {  
+    color: #3f3f3f; /* Color de encabezados */  
+    font-size: 2.5em; /* Tamaño de fuente más grande para el h1 */  
+    margin-bottom: 20px; /* Espacio debajo del h1 */  
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar */  
+}  
+
+h2 {  
+    color: #3f3f3f; /* Color de subencabezados */  
+    font-size: 2em; /* Tamaño de fuente más grande para el h2 */  
+    margin-bottom: 15px; /* Espacio debajo del h2 */  
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar */  
+}  
+
+/* Estilo para la navegación */  
+nav {  
+    background: #333; /* Color de fondo de la barra de navegación */  
+    color: #fff; /* Color del texto en la barra de navegación */  
+    padding: 10px; /* Espacio interno */  
+    text-align: center; /* Centrar el texto horizontalmente */  
+}  
+
+nav a {  
+    margin: 15px; /* Espaciado entre enlaces */  
+    color: white; /* Color del texto de los enlaces en el nav */  
+    font-size: 1.2em; /* Aumentar tamaño de la fuente para enlaces */  
+}  
+
+nav a:hover {  
+    color: #d1d1d1; /* Color del texto al pasar el mouse */  
+}  
+
+/* Adicionalmente, si quieres que la lista de enlaces sea un bloque horizontal */  
+nav a {  
+    display: inline-block; /* Cada enlace se comporta como un bloque en línea */  
+    padding: 5px 10px; /* Espaciado interno para los enlaces */  
+}  
+
+/* Estilo para formularios */  
+form {  
+    background: #fff; /* Fondo blanco para formularios */  
+    padding: 20px; /* Espaciado interno */  
+    border-radius: 5px; /* Bordes redondeados */  
+    box-shadow: 0 0 10px #ada9a9; /* Sombra para el formulario */  
+}  
+
+/* Estilo para entradas de texto y textarea */  
+input[type="text"],  
+input[type="email"],  
+textarea {  
+    width: 100%; /* Ancho completo */  
+    padding: 10px; /* Espaciado interno */  
+    margin: 10px 0; /* Espacio entre campos */  
+    border: 1px solid #e1be0d; /* Borde del campo */  
+    border-radius: 4px; /* Bordes redondeados */  
+}  
+
+/* Estilo para botones */  
+input[type="submit"] {  
+    background-color: #007bff; /* Color de fondo del botón */  
+    color: white; /* Color del texto del botón */  
+    border: none; /* Sin borde */  
+    padding: 10px 15px; /* Espaciado interno */  
+    border-radius: 4px; /* Bordes redondeados */  
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */  
+}  
+
+input[type="submit"]:hover {  
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */  
+}  
