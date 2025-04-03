@@ -12,6 +12,17 @@
             // Aquí podrías agregar código para enviar el formulario a un servidor si es necesario.  
         }  
     </script>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+        }  
+        .center {  
+            display: flex;  
+            justify-content: center;  
+            margin-bottom: 20px; /* Espacio debajo de la imagen */  
+        }  
+    </style>  
 </head>  
 <body>  
 
@@ -22,6 +33,12 @@
 </nav>  
 
 <h1>Contacto</h1>  
+
+<!-- Imagen de la cultura de Jujuy -->  
+<div class="center">  
+    <img src="assets/images/hector-ramon-perez-e7D8evFSyww-unsplash.jpg" alt="Cultura de Jujuy" style="max-width:65%; height:auto;">  
+</div>  
+
 <form id="contactForm" onsubmit="enviarFormulario(event)">  
     <label for="nombre">Nombre:</label>  
     <input type="text" id="nombre" name="nombre_usuario" required><br>  
